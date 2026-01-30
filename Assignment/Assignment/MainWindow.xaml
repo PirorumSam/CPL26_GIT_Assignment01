@@ -11,6 +11,8 @@
 			<Label Content="Git Basic" HorizontalAlignment="Center" FontSize="16" Margin="0,0,0,20"/>
 
 			<Button x:Name="btnHello" Content="Show Message" Width="120" Height="30" Click="btnHello_Click"/>
-		</StackPanel>
+            <Button x:Name="btnBye" Content="Bye Button" Width="120" Height="30" Click="btnBye_Click"/>
+
+        </StackPanel>
 	</Grid>
 </Window>
