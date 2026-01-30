@@ -8,9 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-			<Label Content="Git Basic" HorizontalAlignment="Center" FontSize="16" Margin="0,0,0,20"/>
-
-			<Button x:Name="btnHello" Content="Show Message" Width="120" Height="30" Click="btnHello_Click"/>
+			<Label Content="Git Basic" HorizontalAlignment="Center" FontSize="16" Margin="0,0,0,20"></Label>
+			<Button x:Name="btnHello" Content="Hello Button" Width="120" Height="30" Click="btnHello_Click"/>
+			<Separator Height="20" Visibility="Hidden"/>
+			<Button x:Name="btnBye" Content="Bye Button" Width="120" Height="30" Click="btnBye_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>
