@@ -23,11 +23,11 @@ namespace Assignment
 
         private void btnHello_Click(object sender, RoutedEventArgs e)
         {
-			MessageBox.Show("xin chào !");
+			MessageBox.Show("xin chào!");
 		}
 		private void btnGoodbye_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("tạm biệt !");
+			MessageBox.Show("tạm biệt!");
 		}
 	}
 }
