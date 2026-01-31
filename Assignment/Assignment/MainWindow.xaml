@@ -11,7 +11,7 @@
 			<Label Content="Git Basic" HorizontalAlignment="Center" FontSize="16" Margin="0,0,0,20"></Label>
 			<Button x:Name="btnHello" Content="Hello Button" Width="120" Height="30" Click="btnHello_Click"/>
 			<Separator Height="20" Visibility="Hidden"/>
-			<Button x:Name="btnBye" Content="Bye Button" Width="120" Height="30" Click="btnBye_Click"/>
+			<Button x:Name="btnGoodbye" Content="Bye Button" Width="150" Height="40" Click="btnGoodbye_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>
