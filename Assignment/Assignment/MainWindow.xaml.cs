@@ -25,10 +25,6 @@ namespace Assignment
         {
             MessageBox.Show("xin chào");
         }
-        private void btnBye_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("tạm biệt");
-        }
 
 
     }
