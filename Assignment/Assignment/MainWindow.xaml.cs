@@ -11,9 +11,6 @@ using System.Windows.Shapes;
 
 namespace Assignment
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -21,11 +18,11 @@ namespace Assignment
             InitializeComponent();
         }
 
-        private void btnHello_Click(object sender, RoutedEventArgs e)
+        private void btnxinchao_Click(object sender, RoutedEventArgs e)
         {
 			MessageBox.Show("xin chào");
 		}
-		private void btnBye_Click(object sender, RoutedEventArgs e)
+		private void btntambiet_Click(object sender, RoutedEventArgs e)
 		{
 			MessageBox.Show("tạm biệt");
 		}
